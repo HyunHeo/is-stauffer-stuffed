@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+<div class="jumbotron text-center">
+  <div class="container">
+
+    <span>Replace the below with our logo.</span>
+    <a href="/" class="lang-logo">
+      <img src="/lang-logo.png">
+    </a>
+    <h1>
+        <%= message1 %>
+    </h1>
+    <h2>
+      <%= message2 %>
+    </h2>
+    <p>
+        <%= 972 - libraries[0].population %> / 972 Seats Available
+    </p>
+    <p style="margin-bottom: 0;">
+      <%= webstats[0].visitors * 60 %> Calories Saved
+    </p>
+    <p style="font-weight: 100;font-size: 16px;margin: 0.1em auto 3.8em;">
+      Total Site Visits * 5 min walk calories = Saved calories for Netflix/studying
+    </p>
+    <p></p>
+
+    <a type="button" class="btn btn-lg btn-default" href="#group-members"><span class="glyphicon glyphicon-user"></span> Group Members </a>
+    <a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/node-js-getting-started"><span class="glyphicon glyphicon-download"></span> GitHub </a>
+    <br>
+    <span>
+      Made with <span class="glyphicon glyphicon-heart"></span> by Team #4.
+    </span>
+  </div>
+</div>
+<div class="container" style="width: 100%; padding: 0;">
+  <div id="group-members" class="alert alert-info text-center" role="alert">
+    <h3>Team #4</h3>
+    <ul>
+      <li>Hyun Heo - 10073578</li>
+      <li>Hamada Gazmetal - 10042860</li>
+      <li>Isaac Hogan - 10188271</li>
+      <li>Clark Hodgins	- 10170086</li>
+      <li>Melody Huang - 10137084</li>
+      <li>Gaveshini Sriyanda - 10146093</li>
+      <li>Steven Chen - 10172802</li>
+    </ul>
+  </div>
+</div>
+
+
+</body>
+</html>
